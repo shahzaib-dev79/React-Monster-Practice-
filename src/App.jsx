@@ -1,11 +1,12 @@
 import "./App.css";
-import {} from // PasswordValidation,
+// import {} from // PasswordValidation,
 // AndOperatorRendering,
 // Greetings,
 // Weather,
 // UserStatus,
-"./React-Practice/ConditionalRendering";
-import InteractiveRendering from "./React-Practice/InteractiveRendering";
+// "./React-Practice/ConditionalRendering";
+import Counter, { TodoList } from "./React-Practice/StateAndHooks";
+// import InteractiveRendering from "./React-Practice/InteractiveRendering";
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       {/* <Greetings loggedIn={true} isAdmin={true} /> */}
       {/* <UserStatus /> */}
 
-      <InteractiveRendering />
+      {/* <InteractiveRendering /> */}
+      <Counter />
+      <TodoList />
     </>
   );
 }
